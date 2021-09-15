@@ -1,0 +1,9 @@
+[submodule "anvil-misc"]
+	path = anvil-misc
+	url = https://github.com/almahmoud/anvil-misc.git
+[submodule "iwc"]
+	path = iwc
+	url = https://github.com/galaxyproject/iwc.git
+[submodule "training-material"]
+	path = training-material
+	url = https://github.com/galaxyproject/training-material.git
