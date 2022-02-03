@@ -211,8 +211,11 @@ Action Items
   runtime problem is simply preventing it from working on main there should be a different
   label. We can build as many simple lists of tools this way as we want.
 - Review and expand the list of critical tools.
+
   - Using spreadsheets syncing or manual annotation in the YAML file.
+
 - Establish a covid19.usegalaxy.org (or rna.usegalaxy.org) - really whichever flavor is fine.
+
   - Use gx-tool-db to add a label to each tool that appears on covid19.usegalaxy.eu.
   - Dump a tool panel that contains only those tools with that label out and install on usegalaxy.org.
   - Verify the tool panel is good on main, work with Nate on establishing covid19.usegalaxy.org
