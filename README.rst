@@ -28,7 +28,8 @@ automatic metadata import from gx-tool-db will not interfere with manual annotat
 The YAML format is straight forward and adding labels should be relatively easy. Here are examples of a
 tool we marked as critical because it is used by an IWC workflow.
 
-```yaml
+::
+
   toolshed.g2.bx.psu.edu/repos/bgruening/replace_column_by_key_value_file/replace_column_with_key_value_file:
     external_labels:
     - iwc_required
@@ -47,12 +48,14 @@ tool we marked as critical because it is used by an IWC workflow.
             name: Text Manipulation
         versions:
         - '0.2'
-```
+
+
 
 And here is entry for a deprecated tool. It was marked as deprecated because it appears in the deprecated
 tools list.
 
-```yaml
+::
+
   toolshed.g2.bx.psu.edu/repos/devteam/cummerbund_to_tabular/cummerbund_to_cuffdiff:
     external_labels:
     - deprecated
