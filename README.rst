@@ -221,3 +221,21 @@ Action Items
   - Verify the tool panel is good on main, work with Nate on establishing covid19.usegalaxy.org
     that points at the same Galaxy runtime - one small config tweak can change the default tool
     panel view for requests targetting that domain.
+
+
+-------------
+Tool Slog 1 
+-------------
+
+Curating RNA and Deprecated Tools:
+
+- Export a table.
+
+gx-tool-db export-tabular --label covid19 --label rna --label deprecated --output to_curate.tsv
+
+- Open with spreadsheet program, update, and export back as TSV.
+
+- Import RNA and deprecated table back into database.
+
+gx-tool-db import-tabular to_curate.tsv --label rna --label deprecated
+
