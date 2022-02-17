@@ -26,3 +26,24 @@ gx-tool-db label-workflow-tools ./iwc/ --label critical
 gx-tool-db import-trainings ./training-material
 
 gx-tool-db import-label deprecated_tools.txt deprecated
+
+gx-tool-db import-server-as-label --url https://rna.usegalaxy.eu rna
+gx-tool-db import-server-as-label --url https://covid19.usegalaxy.eu covid19
+gx-tool-db import-server-as-label --url https://assembly.usegalaxy.eu assembly
+gx-tool-db import-server-as-label --url https://hicexplorer.usegalaxy.eu hicexplorer
+gx-tool-db import-server-as-label --url https://virology.usegalaxy.eu virology
+gx-tool-db import-server-as-label --url https://nanopore.usegalaxy.eu nanopore
+gx-tool-db import-server-as-label --url https://ecology.usegalaxy.eu ecology
+gx-tool-db import-server-as-label --url https://climate.usegalaxy.eu climate
+gx-tool-db import-server-as-label --url https://metagenomics.usegalaxy.eu metagenomics
+gx-tool-db import-server-as-label --url https://microgalaxy.usegalaxy.eu microgalaxy
+gx-tool-db import-server-as-label --url https://singlecell.usegalaxy.eu singlecell
+gx-tool-db import-server-as-label --url https://humancellatlas.usegalaxy.eu humancellatlas
+gx-tool-db import-server-as-label --url https://clipseq.usegalaxy.eu clipseq
+gx-tool-db import-server-as-label --url https://plants.usegalaxy.eu plants
+gx-tool-db import-server-as-label --url https://graphclust.usegalaxy.eu graphclust
+gx-tool-db import-server-as-label --url https://cheminformatics.usegalaxy.eu cheminformatics
+gx-tool-db import-server-as-label --url https://imaging.usegalaxy.eu imaging
+gx-tool-db import-server-as-label --url https://metabolomics.usegalaxy.eu metabolomics
+gx-tool-db import-server-as-label --url https://ml.usegalaxy.eu ml
+gx-tool-db import-server-as-label --url https://annotation.usegalaxy.eu annotation
