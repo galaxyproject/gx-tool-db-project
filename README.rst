@@ -223,6 +223,23 @@ Action Items
     panel view for requests targetting that domain.
 
 
+------------
+To Makefile
+------------
+
+Update ``iwc_required`` label.
+
+$ cd iwc
+$ git pull
+$ cd ..
+$ gx-tool-db label-workflow-tools iwc/ --label iwc_required
+
+Update training material fields
+
+$ cd training-material; git pull; cd ..
+$ gx-tool-db import-trainings training-material
+
+
 -------------
 Tool Slog 1 
 -------------
