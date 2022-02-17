@@ -227,6 +227,8 @@ Action Items
 To Makefile
 ------------
 
+Setup virutalenv with gx-tool-db.
+
 Update ``iwc_required`` label.
 
 $ cd iwc
@@ -248,11 +250,10 @@ Curating RNA and Deprecated Tools:
 
 - Export a table.
 
-gx-tool-db export-tabular --label covid19 --label rna --label deprecated --output to_curate.tsv
+gx-tool-db export-tabular --training-topics --label iwc_required --label covid19 --label rna --label deprecated --output to_curate.tsv
 
 - Open with spreadsheet program, update, and export back as TSV.
 
 - Import RNA and deprecated table back into database.
 
 gx-tool-db import-tabular to_curate.tsv --label rna --label deprecated
-
